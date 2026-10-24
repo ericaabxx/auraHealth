@@ -4,9 +4,9 @@ import { View, Text, TouchableOpacity, StyleSheet, Image } from "react-native";
 //propriedades: icon e texto
 
 
-function Button({icon, texto}){
+function Button({icon, texto, funcao}){
     return(
-        <TouchableOpacity style={styles.container} >
+        <TouchableOpacity style={styles.container} onPress={funcao}>
             <Image style={styles.icon}
             source={icon}
             />
@@ -17,21 +17,25 @@ function Button({icon, texto}){
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        width: 352,
         height: 52,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#9333EA',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        borderRadius: 12,
+        gap: 8
     }, 
     icon: {
         height: 20,
-        height: 20,
+        width: 20,
+         resizeMode: 'contain'
         
     },
     text: {
+        fontFamily: 'Inter',
         fontSize: 15,
-        fontWeight: '500',
+        fontWeight: 'semibold',
         color: '#fff'
     }
 })
