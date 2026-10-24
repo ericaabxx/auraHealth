@@ -73,3 +73,12 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# VS Code
+.vscode/
+
+# Variáveis de ambiente e informações sensíveis
+.env
+.env.*
+!.env.example
