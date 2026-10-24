@@ -82,3 +82,7 @@ yarn-error.log
 .env
 .env.*
 !.env.example
+
+
+# Configurações locais do Bundler
+.bundle/
