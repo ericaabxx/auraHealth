@@ -8,12 +8,13 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import Button from './src/components/Button/index.js'
-
+import Header from './src/components/Header/index.js'
 
 function App() {
   
   return (
       <View style={styles.container} >
+        <Header nome="Erica" />
       <Button
         texto="Exportar pdf"
         icon={require('./src/assets/download.png')}
