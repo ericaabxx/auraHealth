@@ -27,11 +27,19 @@ function BottomNavigation(){
 
 const styles = StyleSheet.create({
     container: {
-       flex: 1,
-       height: 64,
-       justifyContent: 'space-between',
-       alignItems: 'center',
-       flexDirection: 'row'
+    position: 'absolute', //permite que a barra fique sobre o conteúdo.
+    bottom: 0, //posiciona a barra no rodapé.
+    left: 0, //fazem a largura acompanhar a tela.
+    right: 0, //fazem a largura acompanhar a tela.
+
+    height: 88,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    flexDirection: 'row',
+
+    backgroundColor: '#FFFFFF',
+    zIndex: 1, //a barra tende a ficar na frente de componentes com valores menores, dentro das regras de empilhamento do layout.
+    elevation: 5, // elevação maior, geralmente com uma sombra mais perceptível.
     }
 })
 
