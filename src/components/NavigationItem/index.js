@@ -49,9 +49,8 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 11,
-    fontWeight: "600",
     color: "#647084",
-    fontFamily: "Inter",
+    fontFamily: "Inter_18pt-SemiBold",
   },
   textSelecionado: {
     color: "#7923C5",

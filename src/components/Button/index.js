@@ -33,9 +33,8 @@ const styles = StyleSheet.create({
         
     },
     text: {
-        fontFamily: 'Inter',
+        fontFamily: 'Inter_18pt-SemiBold',
         fontSize: 15,
-        fontWeight: 'semibold',
         color: '#fff'
     }
 })

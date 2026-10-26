@@ -38,14 +38,12 @@ function Header({ nome }){
         },
         titulo: {
             fontSize: 27,
-            fontFamily: 'Inter',
-            fontWeight: 'bold',
+            fontFamily: 'Inter_18pt-Bold',
             color: '#000'
         },
         subTitulo: {
             fontSize: 13,
-            fontFamily: 'Inter',
-            fontWeight: 'regular',
+            fontFamily: 'Inter_18pt-Regular',
             color: '#647084'
         }
     })
