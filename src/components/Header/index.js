@@ -45,7 +45,7 @@ function Header({ nome }){
         subTitulo: {
             fontSize: 13,
             fontFamily: 'Inter',
-            fontWeight: '100',
+            fontWeight: 'regular',
             color: '#647084'
         }
     })
