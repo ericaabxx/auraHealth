@@ -5,6 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Button from './src/components/Button/index.js'
 import Header from './src/components/Header/index.js'
 import BottomNavigation from './src/components/BottomNavigation/index.js'
+import List from './src/components/List/index.js'
+
 
 import Card from './src/components/Card/index.js'
 
@@ -25,7 +27,26 @@ function App() {
       />
 
       
+      <List 
+      icon={require('./src/assets/img/house.png')}
+      titulo="Medicamento"
+      subtitulo="Cadastro e lembretes"
+      onPress={() => console.log('Botão pressionado!')}
+      />
 
+      <List 
+      icon={require('./src/assets/img/house.png')}
+      titulo="Medicamento"
+      subtitulo="Cadastro e lembretes"
+      onPress={() => console.log('Botão pressionado!')}
+      />
+
+      <List 
+      icon={require('./src/assets/img/house.png')}
+      titulo="Medicamento"
+      subtitulo="Cadastro e lembretes"
+      onPress={() => console.log('Botão pressionado!')}
+      />
       <BottomNavigation />
     </View>
   );
