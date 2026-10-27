@@ -86,3 +86,7 @@ yarn-error.log
 
 # Configurações locais do Bundler
 .bundle/
+# Expo
+.expo
+dist/
+web-build/

@@ -26,27 +26,20 @@ function App() {
       funcao={() => console.log('Botão pressionado!')}
       />
 
-      
       <List 
-      icon={require('./src/assets/img/house.png')}
+      icon={require('./src/assets/img/pill.png')}
       titulo="Medicamento"
       subtitulo="Cadastro e lembretes"
       onPress={() => console.log('Botão pressionado!')}
       />
 
       <List 
-      icon={require('./src/assets/img/house.png')}
-      titulo="Medicamento"
-      subtitulo="Cadastro e lembretes"
+      icon={require('./src/assets/img/user.png')}
+      titulo="Meu perfil"
+      subtitulo="Dados e preferências"
       onPress={() => console.log('Botão pressionado!')}
       />
 
-      <List 
-      icon={require('./src/assets/img/house.png')}
-      titulo="Medicamento"
-      subtitulo="Cadastro e lembretes"
-      onPress={() => console.log('Botão pressionado!')}
-      />
       <BottomNavigation />
     </View>
   );
